@@ -1,0 +1,87 @@
+@import "_config.scss";
+
+header{
+	
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-weight:500;
+	font-style: normal;
+	.navbar{
+		background:  $backgroundBlue;
+		font-family: 'Open Sans', sans-serif;
+		color: white;
+		a{
+			color: white;
+		}
+	}
+	.navbar-default .navbar-brand{
+		color: white;
+	}
+	a{
+			color: white;
+		}
+	.navbar-default .navbar-nav>li>a{
+		color: white;
+	}
+	.navbar-default .navbar-nav>li>a:hover{
+		color: $backgroundBlue;
+		background-color: white;
+	}
+	.navbar-default .navbar-toggle .icon-bar{
+		color: white;
+	}
+	
+}
+header .navbar-default .navbar-toggle .icon-bar {
+    color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.admin-sub-menu{
+	width:100%;
+}
+.item-page{
+	margin-top: 10px;
+}
+.item-header{
+	border-bottom: 1px solid #a02f17;
+
+}
+.item-nav{
+	margin-top: 25px;
+}
+.item-content{
+	td{
+		padding: 5px 10px;
+		border: 1px solid black;
+	}
+}
+a{overflow-wrap: break-word;}
+
+.column-header{
+	
+	div{
+		background-color: #2e99dc;
+		font-size: 16px;
+		font-weight: 600;
+		padding:5px;
+		margin-bottom: 15px;
+	}
+}
+.item-preview{
+	margin-bottom: 15px;
+	.column{
+		
+	}
+}
+.demo-wrapper{
+	margin:0 auto;
+	width:80%;
+}
+.demo-container{
+	margin-top: 50px;
+	
+}
